@@ -63,9 +63,11 @@ Every group fixture, plus the knockout meetups our model rates as most likely to
 ## How it's made
 
 The figures come from a pre-tournament Monte-Carlo forecast of 10,000 simulated tournaments, run
-through our match model. Match numbers are the model's 1X2 estimate for each fixture. The live,
-round-by-round version is on our [World Cup 2026 portal](https://uanalyse.co.uk/world-cup-2026). The
-model itself is proprietary, so this repo publishes the outputs only.
+through our match model. We simulate the group stage, then solve the knockout bracket exactly with
+dynamic programming, so the knockout probabilities are computed rather than sampled. Match numbers
+are the model's 1X2 estimate for each fixture. The live, round-by-round version is on our
+[World Cup 2026 portal](https://uanalyse.co.uk/world-cup-2026). The model itself is proprietary, so
+this repo publishes the outputs only.
 
 ## Cadence
 
