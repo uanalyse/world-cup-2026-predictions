@@ -47,16 +47,18 @@ One row per team: the chance of reaching each stage.
 
 ### `match_predictions.csv`
 
-Every group fixture, plus the knockout meetups our model rates as most likely to happen.
+Every scheduled fixture, with our result probabilities and expected goals. Before the
+tournament that's the 72 group games. Knockout fixtures are added here as the bracket fills in
+and each tie becomes real.
 
 | column | meaning |
 | --- | --- |
-| `snapshot_date` | the model snapshot the row comes from |
-| `kickoff_date` | fixture date (group games only; blank for knockout, which depends on the draw) |
+| `snapshot_date` | the forecast snapshot the row comes from |
+| `kickoff_date` | fixture date |
 | `stage` | round |
-| `fixture_type` | `group` or `knockout` |
+| `fixture_type` | `group`, and `knockout` once those ties are set |
 | `home_team`, `away_team` | the two sides |
-| `prob_meeting` | chance these two actually meet in this slot (`1.0` for scheduled group games) |
+| `prob_meeting` | chance this exact tie happens (`1.0` for scheduled fixtures) |
 | `prob_home_win`, `prob_draw`, `prob_away_win` | 1X2 result probabilities |
 | `exp_home_goals`, `exp_away_goals` | expected goals |
 
