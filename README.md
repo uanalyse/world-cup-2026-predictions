@@ -62,6 +62,16 @@ and each tie becomes real.
 | `prob_home_win`, `prob_draw`, `prob_away_win` | 1X2 result probabilities |
 | `exp_home_goals`, `exp_away_goals` | expected goals |
 
+#### Why a team can have more expected goals yet a lower chance of winning
+
+The 1X2 probabilities and the expected goals come from separate parts of the model rather than one
+shared goal distribution. Expected goals is the average a side scores across all the simulated
+matches. The result probabilities depend on the full spread of those outcomes, not the average
+alone. So now and then a side can carry the higher expected goals while still being the underdog to
+win. That usually happens when its goals are lumpy: it gets blown out in some simulations, which
+lifts its average, but it loses the typical close game. Small gaps like this are normal and aren't a
+contradiction.
+
 ## How it's made
 
 The figures come from a pre-tournament Monte-Carlo forecast of 10,000 simulated tournaments, run
