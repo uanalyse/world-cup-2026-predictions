@@ -55,6 +55,7 @@ and each tie becomes real.
 | --- | --- |
 | `snapshot_date` | the forecast snapshot the row comes from |
 | `kickoff_date` | fixture date |
+| `kickoff_utc` | exact kickoff time as a UTC ISO-8601 timestamp, e.g. `2026-06-19T19:00Z` (blank for knockout ties whose date isn't fixed yet). Added in recent snapshots; older files only have `kickoff_date`. |
 | `stage` | round |
 | `fixture_type` | `group`, and `knockout` once those ties are set |
 | `home_team`, `away_team` | the two sides |
