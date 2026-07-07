@@ -1,6 +1,5 @@
 snapshot_date,kickoff_date,kickoff_utc,stage,fixture_type,home_team,away_team,prob_meeting,prob_home_win,prob_draw,prob_away_win,exp_home_goals,exp_away_goals
-2026-07-07,2026-07-07,2026-07-07T20:00Z,Round of 16,knockout,Switzerland,Colombia,1.0,0.2427,0.2398,0.5175,1.076,1.415
-2026-07-07,2026-07-07,2026-07-07T16:00Z,Round of 16,knockout,Argentina,Egypt,1.0,0.6433,0.2226,0.1341,1.823,0.797
+2026-07-07,,,Quarterfinals,knockout,Argentina,Switzerland,1.0,0.56,0.2523,0.1877,1.723,1.009
 2026-07-07,2026-07-09,2026-07-09T20:00Z,Quarterfinals,knockout,France,Morocco,1.0,0.5756,0.1984,0.226,1.651,1.049
 2026-07-07,2026-07-10,2026-07-10T19:00Z,Quarterfinals,knockout,Spain,Belgium,1.0,0.4949,0.2254,0.2797,1.803,1.201
-2026-07-07,2026-07-11,2026-07-11T21:00Z,Quarterfinals,knockout,Norway,England,1.0,0.2513,0.2078,0.5409,1.227,1.617
+2026-07-07,2026-07-11,2026-07-11T21:00Z,Quarterfinals,knockout,Norway,England,1.0,0.2513,0.2078,0.5409,1.227,1.616
